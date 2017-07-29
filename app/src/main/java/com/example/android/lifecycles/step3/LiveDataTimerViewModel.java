@@ -52,8 +52,8 @@ public class LiveDataTimerViewModel extends ViewModel {
                 new Handler(Looper.getMainLooper()).post(new Runnable() {
                     @Override
                     public void run() {
-
                         //TODO set the new value
+                        mElapsedTime.setValue(newValue);
 
                     }
                 });
